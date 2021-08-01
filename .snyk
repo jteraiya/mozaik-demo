@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - mozaik-ext-github > superagent > extend:
+        patched: '2021-08-01T20:13:00.309Z'
+    - mozaik-ext-weather > superagent > extend:
+        patched: '2021-08-01T20:13:00.309Z'
+  'npm:http-signature:20150122':
+    - mozaik-ext-travis > travis-ci > request > http-signature:
+        patched: '2021-08-01T20:13:00.309Z'
+  'npm:lodash:20180130':
+    - mozaik-ext-weather > lodash:
+        patched: '2021-08-01T20:13:00.309Z'
+    - mozaik-ext-github > babel-core > lodash:
+        patched: '2021-08-01T20:13:00.309Z'
+    - mozaik-ext-weather > babel-core > lodash:
+        patched: '2021-08-01T20:13:00.309Z'
+  'npm:mime:20170907':
+    - mozaik-ext-github > superagent > mime:
+        patched: '2021-08-01T20:13:00.309Z'
+    - mozaik-ext-weather > superagent > mime:
+        patched: '2021-08-01T20:13:00.309Z'
+    - mozaik-ext-travis > travis-ci > request > mime:
+        patched: '2021-08-01T20:13:00.309Z'
+    - mozaik-ext-travis > travis-ci > request > form-data > mime:
+        patched: '2021-08-01T20:13:00.309Z'
+  'npm:minimatch:20160620':
+    - mozaik-ext-github > babel-core > minimatch:
+        patched: '2021-08-01T20:13:00.309Z'
+    - mozaik-ext-weather > babel-core > minimatch:
+        patched: '2021-08-01T20:13:00.309Z'
+  'npm:moment:20161019':
+    - mozaik-ext-travis > moment:
+        patched: '2021-08-01T20:13:00.309Z'
+  'npm:moment:20160126':
+    - mozaik-ext-weather > convict > moment:
+        patched: '2021-08-01T20:13:00.309Z'
+  'npm:qs:20140806-1':
+    - mozaik-ext-travis > travis-ci > request > qs:
+        patched: '2021-08-01T20:13:00.309Z'
+  'npm:request:20160119':
+    - mozaik-ext-travis > travis-ci > request:
+        patched: '2021-08-01T20:13:00.309Z'
